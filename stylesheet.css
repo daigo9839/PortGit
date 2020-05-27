@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+a{
+text-decoration: none;
+font-weight: bold;
+font-size:30px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+li {
+  list-style: none;
+}
+/* 共通部分 */
+.container{
+  width:1200px;
+  margin: 0 auto;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+}
+.heading h2 {
+  font-weight: bold;
+  font-size:30px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* ヘッダー */
+header{
+  height:50px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.header-left {
+  float: left;
+  padding:10px 0;
+}
+.header-right {
+  float:right;
+  padding:13px 0;
+}
+.header-right a{
+  font-size:15px;
+  letter-spacing: 3px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.header-left a{
+  font-size:20px;
+  letter-spacing: 3px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+header a{
+  float: left;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  font-weight: normal;
+}
+/* ファースビュー */
+.top-wrapper{
+  padding: 180px 0 190px 0;
+  background-image:url("fast2.jpeg");
+  background-size: cover;
+  text-align: center;
+}
+.top-wrapper h1{
+  font-size:80px;
+  font-family: 'Noto Sans JP', sans-serif;
+  color:#556B2F;
+  letter-spacing: 3px
+}
+.btn{
+  padding: 20px 80px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.contact{
+  background-color: #FF8C00	;
+  font-weight:bold;
+}
+.top-wrapper a{
+  font-size:20px;
+}
+/* 自己紹介 */
+.about-icon img{
+  border-radius: 50%;
+  float:left;
+  width:  400px;
+  height: 400px;
+  margin-right:190px;
+  border: 4px #808000 solid;
+}
+.about-list{
+padding-top:30px;
+}
+.about-list p{
+  font-size:20px;
+  font-family: serif;
+}
+.about-wrapper{
+  height: 650px;
+  padding-bottom:100px;
+  /* background-color:#f8f8f8; */
+}
+
+/* 制作実績 */
+.ebidence-wrapper{
+  height: 650px;
+  padding-bottom:230px;
+  background-color:#f8f8f8;
+}
+.ebidence-image{
+
+}
+.edidence-image img{
+  padding:30px 220px;
+  height:400px;
+  width:800px;
+}
+.edidence-image p{
+  padding-left:400px;
+}
+/* スキル */
+.skil-wrapper{
+  height: 650px;
+  padding-bottom:180px;
+  text-align: center;
+  /* background-color:#f8f8f8; */
+}
+.skil-content{
+  float:left;
+  width: 400px;
+
+  /* width:20%; */
+  /* display: inline-block; */
+  /* padding:0px 50px; */
+}
+.skil-content h2{
+  font-family:'Noto Sans JP', sans-serif;
+  font-size:20px;
+  margin-bottom:40px;
+}
+.skil-image{
+  margin-right:40px;
+}
+.skil-image img{
+  padding-top:10px;
+  width:  100px;
+  height: 100px;
+  margin-left:50px;
+  margin-bottom:30px;
+}
+.skil-text{
+  display:inline-block;
+  line-height: 40px;
+  width: 100%;
+}
+
+/* 価格表 */
+.price-wrapper{
+  height: 650px;
+  padding-bottom:180px;
+  background-color:#f8f8f8;
+}
+/* お約束 */
+.promise-wrapper{
+  height: 650px;
+  padding-bottom:180px;
+  /* background-color:#f8f8f8; */
+}
+/* お問い合わせ */
+.contact-wrapper{
+  height: 650px;
+  padding-bottom:180px;
+  background-image:url('fast1.jpeg');
+  background-size: cover;
+  background-color:#f8f8f8;
+}
+.contact-wrapper p{
+  font-family:'Noto Sans JP', sans-serif;
+  margin-left:400px;
+  margin-bottom:0px;
+}
+input{
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  margin-left:400px;
+  background-color:#FFFAF0;
+
+}
+textarea{
+  width: 400px;
+  height:200px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+  margin-left:400px;
+  background-color:#FFFAF0;
+}
+.contact-submit {
+  background-color: #FF8C00;
+  border-radius: 10px;
+  color:white;
+}
+footer{
+  height:10px;
+}
+.footer-text{
+  text-align: center;
+}
+.footer-text p{
+  font-size:12px;
+  letter-spacing: 2px;
+}
